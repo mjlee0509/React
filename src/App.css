@@ -4,11 +4,18 @@
 
 .header {
     background-color: black;
+    height: 30px;
+}
+
+.header a {
+    text-decoration: none;
     color: white;
+    margin: 10px;
 }
 
 .home {
     background-color: aliceblue;
+    height: 100px;
 }
 
 .footer {
