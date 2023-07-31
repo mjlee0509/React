@@ -15,14 +15,12 @@ const State = () => {
 
     const textInput = (e) => { // 함수를 입력할 때 event를 넘겨준다
         // console.log(e);
-        console.log(e.target.value);
-        console.log(e.target.name);
+        // console.log(e.target.value);
+        // console.log(e.target.name);
 
         const { name, value } = e.target;
         console.log(name, value);
-
         setParam2(value);
-
     }
 
     return(
